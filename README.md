@@ -258,24 +258,5 @@ STATA_EDITION 与本机版本匹配
 更强的报告模板定制能力
 FastAPI 接口封装
 Web 前端交互界面
-安全说明
 
-请不要上传以下内容到 GitHub：
 
-.env
-真实 API Key
-原始数据文件
-output/ 分析结果
-本地虚拟环境 .venv/
-
-建议使用 .gitignore 进行排除，并提供 .env.example 作为示例配置。
-
-License
-
-可根据你的需要填写，例如：
-
-MIT License
-
-或者暂时写：
-
-All rights reserved.
