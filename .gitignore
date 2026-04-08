@@ -1,0 +1,93 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# =========================
+# Virtual environment
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Project data
+# =========================
+#input/
+#output/
+*.xlsx
+*.xls
+*.csv
+
+# 如果你想保留 input/output 目录结构，但不上传里面内容：
+!input/.gitkeep
+!output/.gitkeep
+
+# =========================
+# Logs / temp files
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# Stata
+# =========================
+*.dta
+*.do
+*.smcl
+*.gph
+*.ster
+*.stpr
+*.stjson
+
+# 导出的图
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# =========================
+# Word / report output
+# =========================
+*.docx
+
+# =========================
+# Local config / credentials
+# =========================
+secrets.json
+config.local.py

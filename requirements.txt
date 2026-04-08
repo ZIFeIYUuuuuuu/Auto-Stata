@@ -1,0 +1,18 @@
+# 核心 Web 框架
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# AI 与 大模型框架
+langchain-core>=0.3.0
+langchain-qwq>=0.1.0
+python-dotenv>=1.0.0
+
+# 数据处理与文档
+openpyxl>=3.1.0
+pandas>=2.2.0
+python-docx>=1.1.0
+
+# 阿里灵积 SDK (用于 Qwen-VL 多模态调用)
+dashscope>=1.15.0
+

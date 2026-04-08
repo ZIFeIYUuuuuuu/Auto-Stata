@@ -1,0 +1,19 @@
+[project]
+name = "autostata-insight"
+version = "0.1.0"
+description = "自动化计量经济学分析系统：Excel → AI清洗 → Stata实证分析 → 学术报告"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-core>=0.3.0",
+    "langchain-qwq>=0.1.0",
+    "openpyxl>=3.1.0",
+    "pandas>=2.2.0",
+    "python-dotenv>=1.0.0",
+    "python-docx>=1.1.0",
+]
+
+[tool.setuptools]
+packages = ["agents", "engine"]
+
+[tool.setuptools.package-data]
+"*" = ["*.txt", "*.yaml"]
