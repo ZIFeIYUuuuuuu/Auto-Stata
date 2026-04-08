@@ -1,0 +1,63 @@
+{
+  "mappings": {
+    "样本 ID": "sample_id",
+    "城市": "city",
+    "性别": "gender",
+    "年龄": "age",
+    "教育程度": "edu",
+    "婚姻状况": "marriage",
+    "家庭月收入": "family_income",
+    "个人月收入": "personal_income",
+    "住房面积": "housing_area",
+    "消费支出": "consumption",
+    "储蓄率": "saving_rate",
+    "信贷使用": "credit_use",
+    "网购频率": "online_freq",
+    "品牌忠诚度": "brand_loyalty",
+    "消费满意度": "satisfaction",
+    "物价感知": "price_perception",
+    "收入预期": "income_expect",
+    "就业状态": "employment",
+    "社保参与": "social_security",
+    "健康状况": "health"
+  },
+  "panel_id": null,
+  "time_var": null,
+  "dep_var": "consumption",
+  "indep_vars": [
+    "age",
+    "edu",
+    "marriage",
+    "family_income",
+    "personal_income",
+    "housing_area",
+    "saving_rate",
+    "credit_use",
+    "online_freq",
+    "brand_loyalty",
+    "satisfaction",
+    "price_perception",
+    "income_expect",
+    "employment",
+    "social_security",
+    "health"
+  ],
+  "dep_type": "continuous",
+  "control_vars": [
+    "age",
+    "gender",
+    "edu",
+    "marriage",
+    "family_income",
+    "employment",
+    "social_security",
+    "health"
+  ],
+  "alt_dep_var": "saving_rate",
+  "group_var": "city",
+  "endog_var": "personal_income",
+  "instruments": [
+    "family_income",
+    "edu"
+  ]
+}
