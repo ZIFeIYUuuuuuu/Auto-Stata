@@ -1,0 +1,36 @@
+{
+  "mappings": {
+    "匹配": "match_flag",
+    "ID": "id",
+    "股票代码": "stkcd",
+    "统计截止日期": "year",
+    "总资产净利润率": "roa",
+    "净资产收益率": "roe",
+    "企业社会责任": "esg",
+    "研发投入": "rd",
+    "成立时间": "age",
+    "资产负债": "lev",
+    "企业规模": "size",
+    "第一大股东持股比例": "top1"
+  },
+  "panel_id": "stkcd",
+  "time_var": "year",
+  "dep_var": "roa",
+  "indep_vars": [
+    "esg",
+    "rd"
+  ],
+  "dep_type": "continuous",
+  "control_vars": [
+    "lev",
+    "size",
+    "top1",
+    "age"
+  ],
+  "alt_dep_var": "roe",
+  "group_var": "esg",
+  "endog_var": "esg",
+  "instruments": [
+    "age"
+  ]
+}
